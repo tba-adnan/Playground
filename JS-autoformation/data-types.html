@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Types.</title>
+</head>
+<body>
+</body>
+<!--  -->
+<script>
+// string.
+var myString = "This a string kind of variable";
+document.write(myString)
+// defined / undefined.
+var a;
+var b = "Hello World!" 
+alert(a) 
+alert(b)
+// Null data type.
+var y = null;
+alert(y)
+// Array data type.
+var person = {"name": "Adnane", "surname": "Tebbaa", "age": "18"};
+var cities = ["London", "Paris", "Madrid", "Tangier"];
+alert(cities[3])
+// Function data type.
+
+var greeting = function(){ 
+    return "this a function type of data in javascript"; 
+}
+alert(typeof greeting) // displaying the type of the function
+alert(greeting());     // Output: Hello World!
+
+// Comparison Operators 
+
+var x = 25;
+var y = 35;
+var z = "25";
+ 
+alert(x == z);  // Outputs: true
+alert(x === z); // Outputs: false
+alert(x != y);  // Outputs: true
+alert(x !== z); // Outputs: true
+alert(x < y);   // Outputs: true
+alert(x > y);   // Outputs: false
+alert(x <= y);  // Outputs: true
+alert(x >= y);  // Outputs: false
+</script>
+</html>
