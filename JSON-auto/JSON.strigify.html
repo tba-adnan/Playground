@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div id="demo"></div>
+<div id="name"></div>
+<div id="data"></div>
+<script>
+const data = {"name" :"adnane", "age":19, "data": ["amjad", "haitam"] }
+document.getElementById('demo').innerHTML= JSON.stringify(data) 
+document.getElementById('name').innerHTML= data.name
+document.getElementById('data').innerHTML = data.data[1]
+</script>
+</body>
+</html>
