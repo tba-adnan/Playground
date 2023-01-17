@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM demo 1</title>
+</head>
+<body>
+
+<h2 id="demo"></h2>
+<h2 id="one"></h2>
+
+
+<script>
+change = () => {
+    console.log("executed.")
+
+ 
+}
+const test = document.getElementById("demo").innerHTML = "Hello World!";
+</script>
+
+
+<button id="button" onclick="change()">test</button>
+<button id="button" onclick="innerHTML='test'">add</button>
+
+    
+</body>
+</html>
