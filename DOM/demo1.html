@@ -15,15 +15,17 @@
 <script>
 change = () => {
     console.log("executed.")
+    document.getElementById("demo").innerHTML = "Testing";
+    document.getElementById("one").innerHTML = "it works!";
+   
+    
 
  
 }
 const test = document.getElementById("demo").innerHTML = "Hello World!";
 </script>
-
-
 <button id="button" onclick="change()">test</button>
-<button id="button" onclick="innerHTML='test'">add</button>
+
 
     
 </body>
