@@ -1,14 +1,11 @@
 <?php
 
-use Students as GlobalStudents;
+
 
 class Students {
  public $name;
  public $nickname;
-
-
- public function __construct($name, $nickname)
- {
+ public function __construct($name, $nickname){
     $this->name = $name;
     $this->nickname = $nickname;
  }
@@ -18,13 +15,18 @@ class Students {
     echo "<p> {$this->nickname}  </p>";
  }
 
+}
 
+class Teacher extends Students {
+   public function testfunc() {
+      echo "testing...";
+   }
 }
 
 
-
-$students = new Students("adnane", "tebbaa");
-$students->definition();
+$student = new Teacher("adnane", "tebbaa");
+$student->testfunc();
+$student->definition();
 
 
 
