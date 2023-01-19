@@ -17,6 +17,7 @@ class Strawberry extends Fruit {
     echo "Am I a fruit or a berry? ";
   }
 }
+
 $strawberry = new Strawberry("Strawberry", "red");
 $strawberry->message();
 $strawberry->intro();
