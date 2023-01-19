@@ -7,6 +7,7 @@ class Car {
 function __construct($name, $country){
     $this->name = $name;
     $this ->country = $country;
+    echo "demo";
 }
 
 function __destruct() {
