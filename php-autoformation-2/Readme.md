@@ -1,7 +1,7 @@
 ## PHP autoformation 2 (in depth OOP) ReadMe :
 
 
-- Abstracts : define a function and use it in multiple child classes. (methods accepts propeties.) (bastract class does not accept multiple inheritances). (no written code in method). (abstract methods should exist in abstract classes). 
+- Abstracts : define a function and use it in multiple child classes. (methods accepts propeties.), (no written code in method). (abstract methods should exist in abstract classes). 
 
 - Interfaces : all methods are public, methods in interface are abstract. (implement.)
 
@@ -9,4 +9,4 @@
 
 - Static methods : can be called in-direct without intializing a class even in another methods.
 
-- Static Properties : same as classic methods but with properties.
+- Static Properties : same as classic methods but exist as properties.
